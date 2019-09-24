@@ -1,0 +1,73 @@
+/* Top Nav */
+body{
+  margin:5%;
+  padding:30%
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("https://www.theknightsvault.com/wp-content/uploads/2017/08/Lord-of-The-Rings-Logo-PNG-Transparent-Image.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-attachment: fixed;
+  background-position: center center;
+  background-color:black;
+  color:white;
+  border:3px solid white;
+  border-radius:12px;
+  text-spacing:5em;
+  letter-spacing:2px;
+
+}
+.topnav{
+  font-family: Arial, Helvetica, sans-serif;
+  overflow:hidden;
+  background-color:rgba(51,51,51,1);
+  border-radius:10px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  text-shadow:2px;
+}
+.topnav a:hover{
+  background-color:#ddd;
+  color:black;
+ 
+}
+.topnav a.active{
+  background-color:#5B2F6F;
+  color: white;
+}
+
+
+article{
+  padding:6px;
+  line-height:30px;
+  border:2px solid white;
+  border-radius:12px;
+  background-color:#333;
+  
+}
+
+
+h2{
+  font-family: arial,sans-serif;
+  border-bottom:3px  solid white;
+  text-align: center;
+  text-shadow: 2px 2px 4px gold;
+
+
+}
+
+h6{
+ background-image :url(https://i.pinimg.com/originals/dd/b1/a4/ddb1a4a72999261e754b325cb1a387d4.jpg);
+}
+
+footer{
+  border:3px solid white;
+  border-radius:8px;
+  background-color:#333;
+}
